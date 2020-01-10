@@ -1,0 +1,10 @@
+package com.yunhe.day08;
+
+public class StudentsBiz {
+	String[ ] names = new String[30];   
+	public void addName(String name) {
+		//增加学生姓名
+	}
+	public void showNames() { //显示全部学生姓名		}
+}
+

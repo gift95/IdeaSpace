@@ -1,0 +1,29 @@
+package com.yunhe.day02;
+
+import java.util.Scanner;
+
+public class demo03 {
+
+	public static void main(String[] args) {
+		System.out.println("请输入天数");
+		int days = extracted().nextInt();
+		int week = (days / 7) + 1;
+		int day = days % 7;
+		if (day == 0) {
+			week--;s
+			day = 7;
+		}
+		System.out.println("第" + week + "周的第" + day + "天 ");
+
+		System.out.println("请输入半径");
+		int radius = extracted().nextInt();
+		double pi = 3.141592654;
+		double area = pi*radius*radius;
+		System.out.println("圆的面积是:" + area);
+	}
+
+	private static Scanner extracted() {
+		return new Scanner(System.in);
+	}
+
+}

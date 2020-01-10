@@ -1,0 +1,29 @@
+package com.yunhe.day03;
+
+import java.util.Scanner;
+
+public class Demo02 {
+public final SPING = "春季"
+	public static void main(String[] args) {
+		System.out.println("请输入数字");
+		int x = extracted().nextInt();
+		String y = "月份";
+		if(1<=x&&x<=12){
+		if (x <= 3) {
+			y = "春季";
+		} else if ( x <= 6) {
+			y = "夏季";
+		} else if ( x <= 9) {
+			y = "秋季";
+		} else if (x <= 12) {
+			y = "冬季";
+		}
+		System.out.println("季节:" + y);
+	} 
+		System.out.println("输入错误");
+	}
+	private static Scanner extracted() {
+		return new Scanner(System.in);
+	}
+
+}

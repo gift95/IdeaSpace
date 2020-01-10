@@ -1,0 +1,32 @@
+[
+  {
+    "userName": "小郑",
+    "provinceName": "河南",
+    "cityName": "郑州",
+    "area": "金水区"
+  },
+  {
+    "userName": "小赵",
+    "provinceName": "河南",
+    "cityName": "郑州",
+    "area": "中原区"
+  },
+  {
+    "userName": "小钱",
+    "provinceName": "河北",
+    "cityName": "秦皇岛市",
+    "area": "北戴河区"
+  },
+  {
+    "userName": "小孙",
+    "provinceName": "湖南",
+    "cityName": "长沙市",
+    "area": "天心区"
+  },
+  {
+    "userName": "小李",
+    "provinceName": "湖北",
+    "cityName": "武汉市",
+    "area": "汉阳区"
+  }
+]

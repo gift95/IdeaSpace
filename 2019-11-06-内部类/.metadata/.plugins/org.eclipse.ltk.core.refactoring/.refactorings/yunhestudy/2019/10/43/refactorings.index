@@ -1,0 +1,47 @@
+1571639437107	Move compilation unit
+1571639441442	Delete element
+1571645300853	Rename type 'helloworld'
+1571647381598	Inline local variable 'sca1'
+1571712432338	Move compilation unit
+1571712507583	Rename package 'com.yunhe.helloworld'
+1571712695826	Delete element
+1571716051117	Inline local variable 'input'
+1571716082447	Extract local variable 'scanner'
+1571716357943	Inline local variable 'input'
+1571720566962	Inline local variable 'input'
+1571729844073	Rename source folder 'src'
+1571730106074	Copy compilation unit
+1571730120953	Rename type 'CopyOfhomework02'
+1571736436463	Extract local variable 'scanner'
+1571798045981	Copy package
+1571798053708	Delete element
+1571798057563	Delete element
+1571798061422	Delete element
+1571798325035	Extract method 'extracted'
+1571798398057	Rename type 'demo01'
+1571800319905	Extract method 'extracted'
+1571800750337	Inline local variable 'input'
+1571803771424	Extract method 'extracted'
+1571803790891	Extract method 'extracted'
+1571803798011	Inline local variable 'input'
+1571803801779	Extract method 'extracted'
+1571827148814	Extract method 'extracted'
+1571827261219	Rename type 'homeWork3'
+1571828051017	Rename type 'honeWork01'
+1571829946183	Rename type 'homeWork03'
+1571831453702	Copy compilation unit
+1571888078900	Extract method 'extracted'
+1571900104411	Convert local variable 'get' to field
+1571905572049	Convert local variable 'input' to field
+1571972467593	Rename type 'Demo01'
+1571972520003	Rename type 'Demon02'
+1571989119094	Rename type 'Demo001'
+1571989129638	Delete element
+1571989201365	Rename type 'Demo01'
+1571989773950	Rename type 'homeWork'
+1571991849658	Delete element
+1572002812560	Delete element
+1572004769965	Rename compilation unit 'Scanner.java'
+1572004794598	Rename compilation unit 'scanner.java'
+1572005134407	Move compilation unit
+1572005641941	Delete element

@@ -1,0 +1,17 @@
+package cn.yunhe.abs;
+
+public class Cat extends ACatKind{
+
+	@Override
+	public void say() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

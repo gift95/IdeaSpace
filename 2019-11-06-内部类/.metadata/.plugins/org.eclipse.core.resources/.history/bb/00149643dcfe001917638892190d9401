@@ -1,0 +1,16 @@
+package cn.yunhe.override;
+
+public class Player extends User{
+
+	int num = 6;
+	
+	@Override
+	public void speak(){
+		System.out.println("faker-----Ëµº«Óï--"+super.num);
+	}
+	
+	//@Override
+	public static void eat(){
+		System.out.println("º«¹úÈË±È½ÏÏ²»¶³ÔÕ¨¼¦¡¢Åİ²Ë");
+	}
+}

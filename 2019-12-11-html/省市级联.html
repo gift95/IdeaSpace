@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>省市县级联</title>
+</head>
+<body>
+<div class=" content">
+    <form action="" method="get">
+        <select id="provinceName" name="provinceName"></select>
+        <select id="cityName" name="cityName"></select>
+        <select id="area" name="area"></select>
+        <button type="submit">提交</button>
+    </form>
+</div>
+<script>
+    var provinceName = ["河南", "河北", "湖南", "湖北"];
+    var cityName = [
+        ["郑州", "开封", "洛阳"],
+        ["石家庄市", "唐山市", "秦皇岛市"],
+        ["长沙市", "株洲市", "湘潭市"],
+        ["武汉市", "黄石市", "十堰市"]
+    ];
+    var area = [
+        [
+            ['中原区', '二七区', '金水区', '惠济区'],
+            ['龙亭区', '鼓楼区', '禹王台区', '顺河区'],
+            ['涧西区', '西工区', '老城区', '瀍河区']
+        ],
+        [
+            ['长安区', '桥西区', '新华区', '井陉矿区'],
+            ['路北区', '路南区', '古冶区', '开平区'],
+            ['海港区', '山海关区', '北戴河区', '抚宁区']
+        ],
+        [
+            ['芙蓉区', '天心区', '岳麓区', '开福区'],
+            ['天元区', '芦淞区', '荷塘区', '石峰区'],
+            ['雨湖区', '岳塘区', '湘乡市', '韶山市']
+        ],
+        [
+            ['江岸区', '江汉区', '硚口区', '汉阳区'],
+            ['大冶市', '阳新县', '黄石港区', '西塞山区'],
+            ['张湾区', '茅箭区', '郧阳区', '丹江口市']
+        ]
+    ];
+    var selNodes = document.getElementsByTagName('select');
+    /*
+    *初始化
+    */
+    createItem(provinceName, 0);
+    createItem(cityName, 1);
+    createItem(area, 2);
+
+
+    /**
+     * 点击第一列时清除第二列第三列 并重新加载
+     */
+    selNodes[0].onchange = function () {
+        selNodes[1].length = 0;
+        selNodes[2].length = 0;
+        createItem(cityName, 1);
+        createItem(area, 2);
+    };
+    /**
+     * 点击第二列清除第三列 并重新加载第三列
+     */
+    selNodes[1].onchange = function () {
+        selNodes[2].length = 0;
+        createItem(area, 2);
+    };
+
+    /**
+     * 获取数组
+     * @param arr
+     * @param i
+     * @returns {*}
+     */
+    function getArr(arr, i) {
+        var m = document.getElementById("provinceName").selectedIndex;
+        var n = document.getElementById("cityName").selectedIndex;
+        switch (i) {
+            case 0:
+                return arr;
+            case 1:
+                return arr[m];
+            case 2:
+                return arr[m][n];
+        }
+    }
+
+    /**
+     * 插入节点
+     * @param arr
+     * @param index
+     */
+    function createItem(arr, index) {
+        var arrs = getArr(arr, index);
+        for (var i = 0; i < arrs.length; i++) {
+            var arg1 = document.createElement("option");
+            arg1.setAttribute("class", selNodes[index].id);
+            arg1.setAttribute("value", arrs[i]);
+            arg1.innerHTML = arrs[i];
+            selNodes[index].appendChild(arg1);
+        }
+    }
+</script>
+</body>
+</html>

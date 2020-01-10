@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/2019-11-07/2019-11-07.iml" filepath="$PROJECT_DIR$/2019-11-07/2019-11-07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-11-07-常用API/2019-11-07-常用API.iml" filepath="$PROJECT_DIR$/2019-11-07-常用API/2019-11-07-常用API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-11-11/2019-11-11.iml" filepath="$PROJECT_DIR$/2019-11-11/2019-11-11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-11-11-collection/2019-11-11-collection.iml" filepath="$PROJECT_DIR$/2019-11-11-collection/2019-11-11-collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-11-12-List/2019-11-12-List.iml" filepath="$PROJECT_DIR$/2019-11-12-List/2019-11-12-List.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-11-13-Mapp/2019-11-13-Mapp.iml" filepath="$PROJECT_DIR$/2019-11-13-Mapp/2019-11-13-Mapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-11-13-map/2019-11-13-map.iml" filepath="$PROJECT_DIR$/2019-11-13-map/2019-11-13-map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-11-13-泛型/2019-11-13-泛型.iml" filepath="$PROJECT_DIR$/2019-11-13-泛型/2019-11-13-泛型.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-11-14-file/2019-11-14-file.iml" filepath="$PROJECT_DIR$/2019-11-14-file/2019-11-14-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-11-15-IOliu/2019-11-15-IOliu.iml" filepath="$PROJECT_DIR$/2019-11-15-IOliu/2019-11-15-IOliu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-11-15-io/2019-11-15-io.iml" filepath="$PROJECT_DIR$/2019-11-15-io/2019-11-15-io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-11-18-线程/2019-11-18-线程.iml" filepath="$PROJECT_DIR$/2019-11-18-线程/2019-11-18-线程.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-11-19-线程2/2019-11-19-线程2.iml" filepath="$PROJECT_DIR$/2019-11-19-线程2/2019-11-19-线程2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-11-20-socket/2019-11-20-socket.iml" filepath="$PROJECT_DIR$/2019-11-20-socket/2019-11-20-socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-11-20-反射/2019-11-20-反射.iml" filepath="$PROJECT_DIR$/2019-11-20-反射/2019-11-20-反射.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WORKSPACE/2019-11-22-xml/2019-11-22-xml.iml" filepath="$PROJECT_DIR$/../WORKSPACE/2019-11-22-xml/2019-11-22-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-06-work/2019-12-06-work.iml" filepath="$PROJECT_DIR$/2019-12-06-work/2019-12-06-work.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-11-html/2019-12-11-html.iml" filepath="$PROJECT_DIR$/2019-12-11-html/2019-12-11-html.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-13-JQuery/2019-12-13-JQuery.iml" filepath="$PROJECT_DIR$/2019-12-13-JQuery/2019-12-13-JQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-17-Demo/2019-12-17-Demo.iml" filepath="$PROJECT_DIR$/2019-12-17-Demo/2019-12-17-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-17-Tomcat/2019-12-17-Tomcat.iml" filepath="$PROJECT_DIR$/2019-12-17-Tomcat/2019-12-17-Tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-18-session/2019-12-18-session.iml" filepath="$PROJECT_DIR$/2019-12-18-session/2019-12-18-session.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-19-1-作用域/2019-12-19-1-作用域.iml" filepath="$PROJECT_DIR$/2019-12-19-1-作用域/2019-12-19-1-作用域.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-19-2-三层结构/2019-12-19-三层结构.iml" filepath="$PROJECT_DIR$/2019-12-19-2-三层结构/2019-12-19-三层结构.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-20-1/2019-12-20-1.iml" filepath="$PROJECT_DIR$/2019-12-20-1/2019-12-20-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-20-2/2019-12-20-2upload.iml" filepath="$PROJECT_DIR$/2019-12-20-2/2019-12-20-2upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-23JSTl/2019-12-23JSTl.iml" filepath="$PROJECT_DIR$/2019-12-23JSTl/2019-12-23JSTl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-24Servlet/2019-12-24Servlet.iml" filepath="$PROJECT_DIR$/2019-12-24Servlet/2019-12-24Servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-24ServletQueryPage/2019-12-24ServletQueryPage.iml" filepath="$PROJECT_DIR$/2019-12-24ServletQueryPage/2019-12-24ServletQueryPage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-25Filter/2019-12-25Filter.iml" filepath="$PROJECT_DIR$/2019-12-25Filter/2019-12-25Filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-26ajax/2019-12-26ajax.iml" filepath="$PROJECT_DIR$/2019-12-26ajax/2019-12-26ajax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-26listener/2019-12-26listener.iml" filepath="$PROJECT_DIR$/2019-12-26listener/2019-12-26listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-27AjaxPratice/2019-12-27AjaxPratice.iml" filepath="$PROJECT_DIR$/2019-12-27AjaxPratice/2019-12-27AjaxPratice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-27jQueryAjax/2019-12-27jQueryAjax.iml" filepath="$PROJECT_DIR$/2019-12-27jQueryAjax/2019-12-27jQueryAjax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-30Mybatis/2019-12-30Mybatis.iml" filepath="$PROJECT_DIR$/2019-12-30Mybatis/2019-12-30Mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2019-12-31Mybatis-02/2019-12-31Mybatis-02.iml" filepath="$PROJECT_DIR$/2019-12-31Mybatis-02/2019-12-31Mybatis-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2020-1-10Maven/2020-1-10Maven.iml" filepath="$PROJECT_DIR$/2020-1-10Maven/2020-1-10Maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2020-1-2mybatis/2020-1-2mybatis.iml" filepath="$PROJECT_DIR$/2020-1-2mybatis/2020-1-2mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2020-1-3mybatis动态sql/2020-1-3mybatis动态sql.iml" filepath="$PROJECT_DIR$/2020-1-3mybatis动态sql/2020-1-3mybatis动态sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2020-1-7Oracle/2020-1-7Oracle.iml" filepath="$PROJECT_DIR$/2020-1-7Oracle/2020-1-7Oracle.iml" />
+    </modules>
+  </component>
+</project>

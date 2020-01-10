@@ -1,0 +1,9 @@
+package cn.yunhe.abs;
+
+public class American extends User{
+
+	@Override
+	public void eat(){
+		System.out.println("”√µ∂≤Ê≥‘...");
+	}
+}

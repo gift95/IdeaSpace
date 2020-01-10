@@ -1,0 +1,30 @@
+<
+<html>
+<head>
+    <script type="text/javascript">
+        function alertIndex() {
+            var x = document.getElementById("mySelect").selectedIndex;
+            alert(x);
+//            var y=document.getElementsByTagName("option");
+//            alert(y[x].text + " has the index of: " + y[x].index);
+        }
+    </script>
+</head>
+<body>
+
+<form>
+    Select your favorite fruit:
+    <select id="mySelect">
+        <option>Apple</option>
+        <option>Orange</option>
+        <option>Pineapple</option>
+        <option>Banana</option>
+    </select>
+    <br/>
+    <br/>
+    <input onclick="alertIndex()" type="button"
+           value="Show index of the chosen fruit">
+</form>
+
+</body>
+</html>

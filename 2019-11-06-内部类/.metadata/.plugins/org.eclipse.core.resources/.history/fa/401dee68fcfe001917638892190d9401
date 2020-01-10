@@ -1,0 +1,13 @@
+package cn.yunhe.inter;
+
+import cn.yunhe.beans.Designer;
+
+public interface IDesigner {
+
+	/**
+	 * 根据英雄的id获取设计师的信息
+	 * @param heroId
+	 * @return
+	 */
+	public abstract Designer getDesignerInfo(int heroId);
+}

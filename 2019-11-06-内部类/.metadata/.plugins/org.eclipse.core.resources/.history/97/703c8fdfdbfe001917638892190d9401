@@ -1,0 +1,9 @@
+package cn.yunhe.abs;
+
+public class Chinese extends User{
+
+	@Override
+	public void eat(){
+		System.out.println("ÓÃ¿ê×Ó³Ô...");
+	}
+}

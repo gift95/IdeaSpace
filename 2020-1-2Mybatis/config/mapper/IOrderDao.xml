@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.yunhe.dao.IOrderDao">
+    <resultMap id="orderResultMap" type="UserConstom">
+        <!--association映射实体类-->
+        <association property="user" javaType="cn.yunhe.beans.User">
+            <id property="userId" column="userId"/>
+        </association>
+        <!--collection映射集合-->
+        <collection property="orderList" ofType="order">
+            <id property="orderId" column="orderId"/>
+        </collection>
+    </resultMap>
+    <select id="queryAllOrder" resultType="order">
+        select *
+        from ordertable
+    </select>
+</mapper>

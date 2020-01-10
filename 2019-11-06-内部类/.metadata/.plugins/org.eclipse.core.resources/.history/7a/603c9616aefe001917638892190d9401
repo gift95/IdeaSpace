@@ -1,0 +1,12 @@
+package cn.yunhe.abs;
+
+public class AbstractDemo {
+
+	public static void main(String[] args) {
+		
+		Chinese ch = new Chinese();
+		ch.eat();
+		ch.show();
+		
+	}
+}

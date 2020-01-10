@@ -1,0 +1,6 @@
+package cn.yunhe.abs;
+
+public abstract class AAnimal {
+
+	public abstract void eat();
+}

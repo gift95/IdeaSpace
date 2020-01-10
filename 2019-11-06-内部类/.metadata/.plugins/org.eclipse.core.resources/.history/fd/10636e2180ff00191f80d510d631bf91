@@ -1,0 +1,37 @@
+package cn.yunhe.Fin;
+
+public class Finaldemo {
+	private static final String SPRING = "春天";
+	private static final String SUMMER = "夏天";
+	private static final String AUTUMN = "秋天";
+	private static final String WINTER = "冬天";
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		String userIn = scan.next();
+		season(userIn);
+		
+		final int a = 1;
+	}
+	
+	/**
+	 * 根据输入的月份获取对应的季节
+	 * byte short char int String(jdk1.7之后) enum
+	 */
+	public static void season(String seasonName){
+		switch(seasonName){
+		case SPRING:
+			System.out.println("春天的月份：3,4,5");
+			break;
+		case SUMMER:
+			System.out.println("夏天的月份：6,7,8");
+			break;
+		case AUTUMN:
+			System.out.println("秋天的月份：9,10,11");
+			break;
+		case WINTER:
+			System.out.println("冬天的月份：12,1,2");
+			break;
+		}
+	}
+}

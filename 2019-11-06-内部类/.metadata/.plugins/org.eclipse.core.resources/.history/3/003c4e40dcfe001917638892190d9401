@@ -1,0 +1,12 @@
+package cn.yunhe.override;
+
+public class OverWriteDemo {
+	
+	public static void main(String[] args) {
+		Player player = new Player();
+		player.speak();
+		Player.eat();
+		
+		System.out.println(player.num);
+	}
+}

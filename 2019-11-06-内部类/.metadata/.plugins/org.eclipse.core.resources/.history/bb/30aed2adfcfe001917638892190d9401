@@ -1,0 +1,30 @@
+package cn.yunhe.beans;
+
+public class Hero {
+
+	public void setName(String name) {
+		// TODO 自动生成的方法存根
+		
+	}
+
+	public void setSex(String sex) {
+		// TODO 自动生成的方法存根
+		
+	}
+
+	public void setKind(int kind) {
+		// TODO 自动生成的方法存根
+		
+	}
+
+	public void setHp(int hp) {
+		// TODO 自动生成的方法存根
+		
+	}
+
+	public void setExp(int exp) {
+		// TODO 自动生成的方法存根
+		
+	}
+
+}

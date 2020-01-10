@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="service">
+    <resultMap id="userResultMap" type="user">
+        <id column="id_" property="userId"/>
+        <result column="name_" property="userName"/>
+    </resultMap>
+    <insert id="addUser" parameterType="user">
+        insert into usertable
+        values (#{userId}, #{userName}, #{userSex}, #{userPhone}, #{userPassword}, #{userVip}, #{userDel})
+    </insert>
+    <delete id="delUser" parameterType="int">
+        delete
+        from usertable
+        where userId = #{userId}
+    </delete>
+    <update id="updateUser" parameterType="user">
+        update usertable
+        set userPhone =#{userPhone}
+        where userId = #{userId}
+    </update>
+    <select id="queryUserById" parameterType="int" resultMap="userResultMap">
+
+        select userId id_, userName name_, userSex, userPhone phone_, userPassword
+        from usertable
+        where userId = #{userId}
+    </select>
+    <select id="queryUser" resultType="user">
+        select userId, userName, userSex, userPhone
+        from usertable
+    </select>
+    <select id="queryUserLike" parameterType="String" resultType="user">
+        select userId, userName, userSex, userPhone, userPassword, userVip, userDel
+        from usertable
+        where userName like concat('%', #{username}, '%')
+    </select>
+</mapper>

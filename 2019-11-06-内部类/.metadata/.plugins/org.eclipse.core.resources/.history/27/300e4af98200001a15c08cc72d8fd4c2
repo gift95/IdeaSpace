@@ -1,0 +1,27 @@
+package cn.yunhe.inner;
+
+import java.util.Arrays;
+
+public class Inner {
+	public static void main(String[] args) {
+
+		String str = "chinese";
+		String str4="";
+		char[] str1 = str.toCharArray();
+		char[] str2 = new char[str.length()];
+		/*
+		for (int i = 0; i < str.length(); i++) {
+			str2[(str.length()-1)-i]=str1[i];
+		}
+		for(char s :str2){
+			System.out.print(s);
+		}*/
+		for (int i = 0; i < str.length(); i++) {
+			str2[(str.length()-1)-i]=str1[i];
+			System.out.println(str.charAt(i));	
+		}
+		str4 = String.valueOf(str2);
+		System.out.println(str1.toString());
+		System.out.println(str4.toString());
+	}
+}

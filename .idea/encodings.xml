@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/2019-11-15-IOliu/src/cn/yunhe/Ioliu/ObjectIO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2019-11-18-线程/src/cn/yunhe/pritace/Item.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2019-11-18-线程/src/cn/yunhe/thread/NewCachedThreadTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2019-11-18-线程/src/cn/yunhe/thread/Single.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2019-11-18-线程/src/cn/yunhe/thread/SubThread.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2019-11-18-线程/src/cn/yunhe/thread/SyncTicket.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2019-11-18-线程/src/cn/yunhe/thread/Ticket.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2019-11-20-socket/src/Servicesss/ServiceEntry.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2019-11-20-socket/src/cn/yunhe/client/Client.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2019-11-20-反射/src/cn/yunhe/fx/ReflectDemo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2019-11-21-xml/src/cn/yunhe/xml/XMLTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2019-11-22-xmlmode/src/cn/yunhe/beans/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../WORKSPACE/2019-11-22-xml/src/cn/yunhe/beans/Order.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../WORKSPACE/2019-11-22-xml/src/cn/yunhe/beans/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../WORKSPACE/2019-11-22-xml/src/cn/yunhe/utils/DOM4JParse.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../WORKSPACE/2019-11-22-xml/src/cn/yunhe/utils/XMLParseUtil.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

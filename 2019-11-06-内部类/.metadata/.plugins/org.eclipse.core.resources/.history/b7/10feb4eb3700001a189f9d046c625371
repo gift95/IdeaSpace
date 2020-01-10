@@ -1,0 +1,8 @@
+package cn.yunhe.inner;
+
+public class outer {
+	public void show() {
+		class inner {
+		}
+	}
+}

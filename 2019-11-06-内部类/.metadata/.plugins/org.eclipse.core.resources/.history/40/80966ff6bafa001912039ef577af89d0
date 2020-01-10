@@ -1,0 +1,36 @@
+package com.yunhe.day08;
+
+public class StudentsBiz {
+
+	String[] names = new String[4];
+
+	public void addName(String name) {
+		for (int i = 0; i < names.length; i++) {
+			if (names[i] == null) {
+				names[i] = name;
+			}
+		}
+	}
+
+	// 增加学生姓名
+
+	public void showNames() { // 显示全部学生姓名
+		for (int i = 0; i <  names.length; i++) {
+			System.out.println(names[i]);
+			break;
+		}
+	}
+
+	public boolean searchName(int start, int end, String name) {
+		boolean find = false; // 是否找到标识
+		// 指定区间数组中，查找姓名
+		for (int i = start - 1; i < end; i++) {
+			if (names[i].equals(name)) {
+				find = true;
+				break;
+			}
+		}
+		return find;
+	}
+
+}

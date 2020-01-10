@@ -1,0 +1,11 @@
+package cn.yunhe.inner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+		String str = "abcdefgh";
+		System.out.println(str.lastIndexOf());
+	}
+
+}

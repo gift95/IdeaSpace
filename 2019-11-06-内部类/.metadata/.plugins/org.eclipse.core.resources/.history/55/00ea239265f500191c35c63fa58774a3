@@ -1,0 +1,30 @@
+package com.yunhe.day02;
+
+import java.util.Scanner;
+
+public class homework03 {
+	public static void main(String[] args) {
+		System.out.println("请输入会员号码后四位");
+		Scanner input = new Scanner(System.in);
+		if (input.hasNextInt()) {
+			int vipNum = input.nextInt();
+			if (vipNum >= 1000 && vipNum <= 9999) {
+				int unit = vipNum % 10;
+				int decade = vipNum / 10 % 10;
+				int hundred = vipNum / 100 % 10;
+				int kilobit = vipNum / 1000;
+				int sum = unit + decade + hundred + kilobit;
+				boolean result;
+				if (sum >= 20) {
+					result = true;
+				} else
+					result = false;
+				System.out.println("是否为幸运客户?" + result);
+			} 
+				
+		}else {
+			System.out.println("会员号码输入错误");
+		}
+	}
+
+}

@@ -1,0 +1,19 @@
+package cn.yunhe.inner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+		String str = "abcdefgh";
+		String str5 = "helloworld";
+		System.out.println(str.lastIndexOf(7));
+		// 截取元素---将str5中的world单独截取出来
+		int startIndex = str5.indexOf("world");
+		// 结束下标
+		int endIndex = str5.length() - 1;
+		// 包含开始不包含结束
+		System.out.println(startIndex);
+		System.out.println(str5.substring(startIndex, str5.length()));
+	}
+
+}

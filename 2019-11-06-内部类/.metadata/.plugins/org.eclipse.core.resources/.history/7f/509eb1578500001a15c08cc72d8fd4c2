@@ -1,0 +1,65 @@
+package cn.yunhe.inner.noname;
+
+/**
+ * 匿名内部类
+ * 	要求：要有接口或者继承
+ * 	优势：生命周期短
+ * 语法：
+ * 	new 父类名称(){}
+ * 注意：
+ * 	1、用的是父类来创建子类对象
+ * 	2、整体是一个子类对象，只是该类没有具体的名称（类型）
+ * 使用：
+ * 	前提：当指定接口中的方法不需要频繁使用的时候才会考虑匿名内部类
+ * 	1、当不需要具体的子类的时候可以使用匿名内部类
+ * 	2、当子类不需要有自己特有的方法的时候可以使用
+ * 	3、当接口中的方法不多(五个以内--建议)时可以使用
+ */
+public class InnerDemo {
+
+	public static void main(String[] args) {
+		
+		/*new IUser(){
+			@Override
+			public void speak() {
+				System.out.println("匿名内部类");
+			}
+		}.speak();*/
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*
+		IUser user = new IUser(){
+			@Override
+			public void speak() {
+				System.out.println("匿名内部类");
+			}
+			public void show(){
+				System.out.println("匿名内部类中的自定义方法");
+			}
+			@Override
+			public void eat() {
+				System.out.println("匿名内部类2");
+			};
+		};
+		
+		user.speak();
+		user.eat();
+		*/
+	}
+}

@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="2020-1-2mybatis:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/2020_1_2mybatis_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="2020-1-2mybatis/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="2020-1-2mybatis" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-5.1.7-bin" />
+          <element id="library" level="project" name="fastjson-1.2.9" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

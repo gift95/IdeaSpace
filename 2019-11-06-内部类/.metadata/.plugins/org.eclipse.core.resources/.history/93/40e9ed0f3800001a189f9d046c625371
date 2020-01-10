@@ -1,0 +1,12 @@
+package cn.yunhe.inner;
+
+public class outer {
+	public void show() {
+		class inner {
+			private void run() {
+				// TODO 自动生成的方法存根
+				System.out.println("跑.....................");
+			}
+		}
+	}
+}

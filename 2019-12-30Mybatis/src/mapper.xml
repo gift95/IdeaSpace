@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="service">
+
+    <insert id="addUser" parameterType="cn.yunhe.beans.User">
+        insert into usertable
+        values (#{userId}, #{userName}, #{userSex}, #{userPhone}, #{userPassword}, #{userVip}, #{userDel})
+    </insert>
+    <delete id="delUser" parameterType="int">
+        delete
+        from usertable
+        where userId = #{userId}
+    </delete>
+    <update id="updateUser" parameterType="cn.yunhe.beans.User">
+        update usertable
+        set userPhone =#{userPhone}
+        where userId = #{userId}
+    </update>
+    <select id="queryUserById" parameterType="int" resultType="cn.yunhe.beans.User">
+        select userId, userName, userSex, userPhone, userPassword, userVip, userDel
+        from usertable
+        where userId = #{userId}
+    </select>
+    <select id="queryUser" resultType="cn.yunhe.beans.User">
+        select userId, userName, userSex, userPhone, userPassword, userVip, userDel
+        from usertable
+    </select>
+    <select id="queryUserLike" parameterType="String" resultType="cn.yunhe.beans.User">
+        select userId, userName, userSex, userPhone, userPassword, userVip, userDel
+        from usertable
+        where userName like concat('%', #{username}, '%')
+    </select>
+</mapper>

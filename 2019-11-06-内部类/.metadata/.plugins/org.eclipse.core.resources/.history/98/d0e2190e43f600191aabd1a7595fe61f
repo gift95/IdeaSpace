@@ -1,0 +1,14 @@
+package com.yunhe.day04;
+
+public class Demo07 {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+		for (int i = 1; i <= 9; i++) {
+			for(int j = 0;j<=9;j++){
+				System.out.println("i"+"*"+"j"+"="+i*j);
+			}
+		}
+	}
+
+}

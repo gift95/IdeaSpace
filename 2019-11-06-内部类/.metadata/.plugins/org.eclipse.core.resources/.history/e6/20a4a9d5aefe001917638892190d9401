@@ -1,0 +1,11 @@
+package study;
+
+public class Test01 {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+Cat cat = new Cat();
+cat.eat();
+	}
+
+}

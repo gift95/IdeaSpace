@@ -1,0 +1,30 @@
+package cn.yunhe.inner;
+
+/**
+ * 外部类
+ * 第一点：内部类本身是一个类
+ * 第二点：作为内部类，整体而言它也是外部类中的一个属性
+ */
+public class Outer {
+
+	//private int num = 4;
+	
+	static class Inner{
+		
+		int num = 3;
+		
+		public void show(int num){
+			num = 5;
+			System.out.println("我是内部类中的方法"+num);
+		}
+	}
+	
+	/**
+	 * 调用内部类中的方法
+	 */
+	public void method(){
+		Inner inner = new Inner();
+		inner.show(0);
+	}
+}
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- beans代表该xml文件中可以存放多个类型的数据 -->
+<beans>
+	<!-- 定义一个Order类的bean -->
+	<bean id="orderId" class="cn.yunhe.beans.Order"></bean>
+	<!-- 定义一个User类的bean -->
+	<bean id="userId" class="cn.yunhe.beans.cn.yunhe.beans.User"></bean>
+</beans>

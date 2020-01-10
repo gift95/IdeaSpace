@@ -1,0 +1,7 @@
+package cn.yunhe.abs;
+
+public abstract class ACatKind extends AAnimal{
+
+	public abstract void say();
+	
+}

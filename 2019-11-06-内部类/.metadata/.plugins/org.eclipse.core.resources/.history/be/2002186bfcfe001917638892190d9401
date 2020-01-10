@@ -1,0 +1,23 @@
+package cn.yunhe.inter;
+
+import cn.yunhe.beans.Hero;
+
+/**
+ * 英雄人物塑造
+ */
+public interface ISuperHero {
+
+	/**
+	 * 创建英雄
+	 * @param hero
+	 * @return
+	 */
+	public abstract Hero createHero(Hero hero); 
+	
+	/**
+	 * 英雄改版
+	 * @param hero
+	 * @return
+	 */
+	public abstract Hero changeHero(Hero hero);
+}

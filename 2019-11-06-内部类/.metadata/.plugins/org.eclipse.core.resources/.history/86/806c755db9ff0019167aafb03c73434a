@@ -1,0 +1,22 @@
+package cn.yunhe.inner;
+
+public class InnerDemo {
+
+	public static void main(String[] args) {
+		
+		//调用内部类的show方法
+		/*Outer outer = new Outer();
+		Outer.Inner inner = outer.new Inner();
+		inner.show();*/
+		
+		/*Outer outer = new Outer();
+		outer.method();*/
+		
+		/*//当内部类的修饰符为static时该如何调用
+		Outer.Inner inner = new Outer.Inner();
+		inner.show();*/
+		new Outer().new Inner();
+		Outer outer = new Outer();
+		outer.method();
+	}
+}

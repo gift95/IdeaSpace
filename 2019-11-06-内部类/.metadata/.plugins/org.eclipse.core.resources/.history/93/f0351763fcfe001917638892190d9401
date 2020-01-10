@@ -1,0 +1,63 @@
+package cn.yunhe.inter;
+
+import cn.yunhe.beans.Hero;
+
+/**
+ * 程序的入口
+ */
+public class Entry {
+
+	public static void main(String[] args) {
+		
+		//模拟从前台传递过来的属性
+		String name = "亚索";
+		String sex = "男";
+		int kind = 0;
+		int hp = 575;
+		int exp = 0;
+		
+		//模拟从前台传递过来的属性
+		String name2 = "泰隆";
+		String sex2 = "男";
+		int kind2 = 1;
+		int hp2 = 575;
+		int exp2 = 0;
+		
+		//将以上属性封装到一个hero对象中
+		Hero newHero = new Hero();
+		newHero.setName(name);
+		newHero.setSex(sex);
+		newHero.setKind(kind);
+		newHero.setHp(hp);
+		newHero.setExp(exp);
+		
+		Hero newHero2 = new Hero();
+		newHero2.setName(name2);
+		newHero2.setSex(sex2);
+		newHero2.setKind(kind2);
+		newHero2.setHp(hp2);
+		newHero2.setExp(exp2);
+		
+		SuperHeroImpl superHero = new SuperHeroImpl();
+		Hero hero = superHero.createHero(newHero);
+		Hero hero2 = superHero.createHero(newHero2);
+		
+		fight(hero,hero2);
+	}
+	
+	/**
+	 * 模拟两个英雄的对战
+	 * @param hero1
+	 * @param hero2
+	 */
+	public static void fight(Hero hero1,Hero hero2){
+		System.out.println(hero1.getName()+"先发制人，发动踏前斩技能，伤害值为75，命中之后，"+hero2.getName()+"血量减少75");
+		hero2.setHp(hero2.getHp()-75);
+		System.out.println(hero2.getName()+"发动反攻，斩草除根，伤害125");
+		System.out.println(hero1.getName()+"发动大招，哈撒gay，反杀，战斗结束");
+		hero1.setExp(300);
+		hero2.setHp(0);
+		System.out.println(hero1);
+		System.out.println(hero2);
+	}
+}

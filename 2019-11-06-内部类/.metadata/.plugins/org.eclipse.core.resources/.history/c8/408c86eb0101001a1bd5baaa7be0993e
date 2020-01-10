@@ -1,0 +1,16 @@
+package api;
+
+import java.util.Random;
+
+public class Demo01 {
+	public static void main(String[] args) {
+/*		Random a = new Random();
+		
+		while (true) {
+			int num = a.nextInt(10)+1;
+			System.out.println(num);
+			}*/
+	double m = Math.random()*100;	
+	System.out.println(Math.floor(m));
+	}
+	}

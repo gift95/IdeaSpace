@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.yunhe.dao.IOrderDao">
+    <sql id="orderSql">
+        userName,userPassword,userPhone,userSex,orderId,orderCreatTime,orderEndTime,roomId
+    </sql>
+    <resultMap id="orderResultMap" type="UserConstom">
+        <!--association映射实体类-->
+        <association property="user" javaType="cn.yunhe.beans.User">
+            <id property="userId" column="userId"/>
+            <result property="userName" column="userName"/>
+            <result property="userSex" column="userSex"/>
+            <result property="userPhone" column="userPhone"/>
+            <result property="userPassword" column="userPassword"/>
+        </association>
+        <!--collection映射集合-->
+        <collection property="orderList" ofType="order">
+            <id property="orderId" column="orderId"/>
+            <result property="orderCreatTime" column="orderCreatTime"/>
+            <result property="orderEndTime" column="orderEndTime"/>
+            <result property="userId" column="userId"/>
+            <result property="roomId" column="roomId"/>
+        </collection>
+    </resultMap>
+    <select id="queryAllOrder" resultType="order">
+        select *
+        from ordertable
+    </select>
+    <select id="queryOrderByUser" parameterType="user" resultMap="orderResultMap">
+        select
+        <include refid="orderSql"/>
+        from
+        ordertable o,usertable u
+        <where>
+            u.userId = o.userId and u.userId = #{userId}
+        </where>
+    </select>
+</mapper>

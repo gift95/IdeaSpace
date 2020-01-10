@@ -1,0 +1,50 @@
+package com.yunhe.helloworld;
+
+import java.util.Scanner;
+
+public class homeworker10 {
+	public static void mnueprint() {
+		System.out.println("欢迎使用我行我素购物管理系统");
+		System.out.println("");
+		System.out.println("1. 登陆系统");
+		System.out.println("");
+		System.out.println("");
+		System.out.println("2. 退出系统");
+		System.out.println("*******************************");
+		System.out.print("请选择,输入数字:");
+	}
+
+	public static void mnue1print() {
+		System.out.println("\t\t欢迎使用我行我素购物管理系统\t\t");
+		System.out.println("");
+		System.out.println("*************************************");
+		System.out.println("1. 客户信息管理");
+		System.out.println("");
+		System.out.println("2. 购物结算");
+		System.out.println("");
+		System.out.println("3. 真情回馈");
+		System.out.println("");
+		System.out.println("4. 注销");
+		System.out.println("");
+		System.out.println("*******************************");
+		System.out.println("");
+		System.out.print("请选择,输入数字:");
+	}
+
+	@SuppressWarnings("resource")
+	public static  void main(String[] args) {
+		homeworker10.mnueprint();
+		
+		int i = new Scanner(System.in).nextInt();
+		if (i==1) {
+           homeworker10.mnue1print();
+           Scanner sca1=new Scanner(System.in);
+           int m =sca1.nextInt();
+           if(m==4){
+        	   homeworker10.mnueprint();
+           }
+		}else{
+		 homeworker10.mnueprint();
+	}
+	}
+}

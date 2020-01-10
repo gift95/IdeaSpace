@@ -1,0 +1,19 @@
+package com.yunhe.day08;
+
+import java.util.Arrays;
+
+public class StudentsBiz {
+	String[] names = new String[4];
+
+	public void addName(String name) {
+names = name;
+
+	}
+	// 增加学生姓名
+
+	public void showNames() { // 显示全部学生姓名
+		for (int i = 0; i < 30; i++) {
+			System.out.println(names[i]);
+		}
+	}
+}

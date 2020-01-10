@@ -1,0 +1,12 @@
+package cn.yunhe.inner;
+
+public class Outer {
+	public void show() {
+		class inner {
+			private void run(String name) {
+				System.out.println(name+"Εά.....................");
+			}
+		}
+		new inner().run();
+	}
+}

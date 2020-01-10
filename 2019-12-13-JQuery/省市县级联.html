@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Document</title>
+
+</head>
+<body>
+
+<!-- 省份 -->
+<select name="pro">
+    <option>--请选择省份--</option>
+</select>
+
+<!-- 市 -->
+<select name="city">
+    <option>--请选择城市--</option>
+</select>
+
+<!-- 县区 -->
+<select name="area">
+    <option>--请选择县/区--</option>
+</select>
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script>
+    var provinceName = ["河南", "河北", "湖南", "湖北"];
+    var cityName = [
+        ["--请选择城市--"],
+        ["郑州", "开封", "洛阳"],
+        ["石家庄市", "唐山市", "秦皇岛市"],
+        ["长沙市", "株洲市", "湘潭市"],
+        ["武汉市", "黄石市", "十堰市"]
+    ];
+    var area = [
+        [
+            ["--请选择县/区--"]
+        ],
+        [
+            ['中原区', '二七区', '金水区', '惠济区'],
+            ['龙亭区', '鼓楼区', '禹王台区', '顺河区'],
+            ['涧西区', '西工区', '老城区', '瀍河区']
+        ],
+        [
+            ['长安区', '桥西区', '新华区', '井陉矿区'],
+            ['路北区', '路南区', '古冶区', '开平区'],
+            ['海港区', '山海关区', '北戴河区', '抚宁区']
+        ],
+        [
+            ['芙蓉区', '天心区', '岳麓区', '开福区'],
+            ['天元区', '芦淞区', '荷塘区', '石峰区'],
+            ['雨湖区', '岳塘区', '湘乡市', '韶山市']
+        ],
+        [
+            ['江岸区', '江汉区', '硚口区', '汉阳区'],
+            ['大冶市', '阳新县', '黄石港区', '西塞山区'],
+            ['张湾区', '茅箭区', '郧阳区', '丹江口市']
+        ]
+    ];
+    $.each(provinceName, function (index, ele) {
+        $('select:eq(0)').append("<option>" + ele + "</option>");
+    });
+    var arr = null;
+    var proIndex = 0;
+    var cityIndex = 0;
+    var selIndex = 0;
+    $("select").on("change", function () {
+        //获取选择的下标
+        var index = this.selectedIndex;
+        //判断选择栏的名字是哪一个
+        if ($(this).attr('name') == "pro") {
+            //如果是省份选择 获取省份所在的下标作为数组的索引下标
+            arr = cityName[index];
+            //存储省份下标
+            proIndex = index;
+            //将数据插入下一个选择栏中
+            selIndex = 1;
+            //默认关联第一个城市的第一个县区
+            addEle(2, area[proIndex][0]);
+        } else if (($(this).attr('name') == "city")) {
+            arr = area[proIndex][index];
+            selIndex = 2;
+            cityIndex = index;
+
+        } else {
+            return;
+        }
+        addEle(selIndex, arr);
+    });
+
+    function addEle(selIndex, arr) {
+        $('select').eq(selIndex)[0].length = 0;
+        //将城市数组添加到城市对应的下拉列表中
+        $.each(arr, function (index, ele) {
+            $('select').eq(selIndex).append("<option>" + ele + "</option>");
+        });
+    }
+</script>
+</body>
+</html>

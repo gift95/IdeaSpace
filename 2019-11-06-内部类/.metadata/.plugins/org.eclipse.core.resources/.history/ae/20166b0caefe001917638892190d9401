@@ -1,0 +1,14 @@
+package cn.yunhe.abs;
+
+public abstract class User {
+
+	public User(){
+		System.out.println("¸¸Àà¹¹ÔìÆ÷");
+	}
+	
+	public abstract void eat();
+	
+	public void show(){
+		System.out.println("---");
+	}
+}

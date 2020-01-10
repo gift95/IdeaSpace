@@ -1,0 +1,25 @@
+package com.yunhe.day05;
+
+import java.util.Arrays;
+
+public class Demo01 {
+
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+		int[] a =new int[] { 1, 12, 16, 41, 5, 15, 9, 7 };
+		int i, j;
+		int tmp = 0;
+		for (i = 0; i < a.length-1; i++) {
+			for (j = 0; j < a.length - i-1; j++) {
+				if (a[j] > a[j + 1]){
+					tmp = a[j];
+					a[j]=a[j+1];
+					a[j+1]=tmp;
+				}
+			}
+			
+		}
+		System.out.println(Arrays.toString(a));
+
+	}
+}

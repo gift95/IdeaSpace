@@ -1,0 +1,40 @@
+package cn.yunhe.duotai;
+
+public class DuoTaiDemo {
+
+	public static void main(String[] args) {
+//		Cat cat = new Cat();
+//		//cat.eat();
+//		Dog dog = new Dog();
+//		//dog.eat();
+//		method(cat);
+		
+		/*
+		 * Animal animal = new Cat(); animal.eat(); animal.show();
+		 * System.out.println(animal.num); System.out.println(animal.count);
+		 */
+	}
+	
+	/**
+	 * 根据传递的对象不同，执行不同的吃的方法
+	 */
+	public static void method(Animal animal){//Animal animal = new Dog(); 向上转型
+		animal.eat();
+		//强制类型转换  ClassCastException类型转换异常
+		//对传递进来的对象进行类型判断  instanceof  只能对引用数据类型进行判断
+		if(animal instanceof Dog){
+			Dog dog = (Dog)animal;//向下转型
+			dog.lookDoor();
+			dog.show();
+		}else if(animal instanceof Cat){
+			Cat cat = (Cat)animal;
+			cat.catchMouse();
+			cat.show();
+		}
+		
+	}
+	
+	public static void show(int a){//int a = 1;
+		System.out.println(a);
+	}
+}

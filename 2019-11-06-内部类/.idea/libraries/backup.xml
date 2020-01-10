@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="backup">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/.metadata/.mylyn/backup/mylyn-v3-data-2019-11-07-112046.zip!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.mylyn/backup/mylyn-v3-data-2019-11-05-195032.zip!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.mylyn/backup/mylyn-v3-data-2019-11-07-105046.zip!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.mylyn/backup/mylyn-v3-data-2019-10-31-202114.zip!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.mylyn/backup/mylyn-v3-data-2019-11-01-113045.zip!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.mylyn/backup/mylyn-v3-data-2019-11-06-201259.zip!/" />
+      <root url="jar://$PROJECT_DIR$/.metadata/.mylyn/backup/mylyn-v3-data-2019-11-04-202602.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

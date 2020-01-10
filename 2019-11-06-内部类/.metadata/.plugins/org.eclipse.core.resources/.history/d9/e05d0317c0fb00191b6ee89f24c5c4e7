@@ -1,0 +1,56 @@
+package com.yunhe.day08;
+
+import java.util.Scanner;
+
+public class Game {
+	int count = 0;
+	int countHum = 0;
+	int countCmp= 0;
+	String nameHum;
+	String nameCmp;
+	Human hum = new Human();
+	Computer cmp = new Computer();
+	public String initial() {
+		System.out.println("************");
+		System.out.println("***猜拳,开始***");
+		System.out.println("************");
+		System.out.println("出拳规则:1.剪刀2.石头3.布");
+		nameCmp = cmp.computerName();
+		nameHum = hum.humanName();
+		System.out.println(nameHum+"VS"+nameCmp);
+		System.out.println("要开始吗?(y/n)");
+		String result = extracted().next();
+		return result;
+	}
+	private Scanner extracted() {
+		return new Scanner(System.in);
+	}
+	public void startGame(String res){
+		
+		do{
+			count +=1; 
+		if(res.equals("y")){
+			int h=hum.humanAction();
+			int c=cmp.computerAction();
+			if((h-c)==-2||(h-c)==1){
+				System.out.println("你赢了");
+				countHum+=1;
+			}else if((h-c)==-1||(h-c)==2){
+				System.out.println("你输了");
+				countCmp+=1;
+			}else if(h==c){
+				System.out.println("平局");
+			}
+			
+			System.out.println("是否开始下一轮?y/n");
+			Scanner input = extracted();
+			res = input.next();
+		}
+		}while(res.equals("y"));
+	}
+	public void showResult(){
+		System.out.println(nameHum+"\t"+"VS"+"\t"+nameCmp+"\t");
+		System.out.println("对战次数"+count);
+		System.out.println("姓名\t"+"得分\n"+nameHum+"\t"+countHum+"\n"+nameCmp+"\t"+countCmp);
+	}
+}

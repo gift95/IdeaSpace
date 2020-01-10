@@ -1,0 +1,27 @@
+1572228177741	Delete element
+1572234371433	Delete element
+1572243107073	Convert local variable 'input' to field
+1572243597735	Convert local variable 'input' to field
+1572251579304	Convert local variable 'input' to field
+1572253127886	Delete element
+1572253531567	Convert local variable 'input' to field
+1572255115312	Rename type 'Test4'
+1572257819907	Delete element
+1572257828205	Rename type 'Test5'
+1572309294098	Extract method 'extracted'
+1572316731281	Convert local variable 'input' to field
+1572347310126	Rename type 'ZhazhiJi'
+1572402033582	Convert local variable 'input' to field
+1572408182591	Rename type 'Ghust'
+1572491268778	Rename compilation unit 'Demo02.java'
+1572504847296	Rename type 'Demo03'
+1572513597837	Inline local variable 'input'
+1572513602535	Extract method 'extracted'
+1572513619611	Inline local variable 'input'
+1572513623462	Extract method 'extracted'
+1572513633112	Inline local variable 'input'
+1572513636996	Extract method 'extracted'
+1572513643006	Inline local variable 'input'
+1572513646835	Extract method 'extracted'
+1572513652890	Inline local variable 'input'
+1572513656294	Extract method 'extracted'

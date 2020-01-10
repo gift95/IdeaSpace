@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="1.8" jdk_type="JavaSDK">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="dom4j-2.1.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/2019-11-21-xml/lib/dom4j-2.1.1.jar!/"/>
+	</lib>
+	<levels>
+		<level name="dom4j-2.1.1" value="project"/>
+	</levels>
+</component>

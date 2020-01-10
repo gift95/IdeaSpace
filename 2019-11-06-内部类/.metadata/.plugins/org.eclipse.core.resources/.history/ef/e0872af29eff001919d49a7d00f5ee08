@@ -1,0 +1,5 @@
+package study;
+
+public final  class AAnimal {
+ final String kind = "นท";
+}

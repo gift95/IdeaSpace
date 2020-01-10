@@ -1,0 +1,18 @@
+1 Welcome to China
+2 How are you?
+3 I am fine.Thank you,and you !
+4 I am fine too.
+5 Long time no see!
+6 I miss you very much!
+7 Welcome to China
+8 How are you?
+9 I am fine.Thank you,and you !
+10 I am fine too.
+11 Long time no see!
+12 I miss you very much!
+13 Welcome to China
+14 How are you?
+15 I am fine.Thank you,and you !
+16 I am fine too.
+17 Long time no see!
+18 I miss you very much!

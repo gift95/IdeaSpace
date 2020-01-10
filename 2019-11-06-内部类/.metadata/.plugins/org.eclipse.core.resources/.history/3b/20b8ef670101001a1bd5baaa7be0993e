@@ -1,0 +1,13 @@
+package api;
+
+import java.util.Random;
+
+public class Demo01 {
+public static void main(String[] args) {
+	Random a = new Random();
+	int num = a.nextInt(10);
+	while(true){
+	System.out.println(num);
+}
+}
+}

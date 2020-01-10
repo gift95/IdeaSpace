@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>点名器</title>
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="wrapper clearfix">
+    <div class="showInfo ">被挑中的同学</div>
+    <div id="showName">名字</div>
+    <div class="button">
+        <button id="start" onclick="startShow()">开始</button>
+        <button id="stop" onclick="stopShow()">停止</button>
+        <button id="reset" onclick="reloadPage()">重置</button>
+    </div>
+    <div id="time" onload="showTime()"></div>
+</div>
+<script src="js/roll.js"></script>
+<script src="js/showTime.js"></script>
+</body>
+
+</html>

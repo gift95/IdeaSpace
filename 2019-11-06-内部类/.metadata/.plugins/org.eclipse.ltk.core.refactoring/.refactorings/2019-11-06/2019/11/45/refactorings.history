@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;cn.yunhe.inner.outer&apos; to &apos;Outer&apos;&#x0D;&#x0A;- Original project: &apos;2019-11-06&apos;&#x0D;&#x0A;- Original element: &apos;cn.yunhe.inner.outer&apos;&#x0D;&#x0A;- Renamed element: &apos;cn.yunhe.inner.Outer&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;outer&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;cn.yunhe.inner{outer.java[outer" matchStrategy="1" name="Outer" qualified="false" references="true" similarDeclarations="false" stamp="1573005137546" textual="false" version="1.0"/>
+</session>

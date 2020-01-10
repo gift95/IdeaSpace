@@ -1,0 +1,21 @@
+package cn.yunhe.duotai;
+
+public class Cat extends Animal{
+
+	//int num = 6;
+	
+	//static int count = 4;
+	
+	@Override
+	public void eat() {
+		System.out.println("猫吃鱼");
+	}
+
+	public void catchMouse(){
+		System.out.println("抓老鼠");
+	}
+	@Override
+	public static void show(){
+		System.out.println("子类中的show方法");
+	}
+}

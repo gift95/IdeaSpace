@@ -1,0 +1,28 @@
+package cn.yunhe.inter;
+
+import cn.yunhe.beans.Designer;
+import cn.yunhe.beans.Hero;
+
+public class SuperHeroImpl extends Object implements/*实现*/ ISuperHero,IDesigner{
+
+	/**
+	 * 开发流程：前台将要创建的英雄对应的属性传递给后台
+	 * 此处可以接收并进行创建
+	 */
+	@Override
+	public Hero createHero(Hero hero) {
+		//将要创建的英雄对象返回出去
+		return hero;
+	}
+
+	@Override
+	public Hero changeHero(Hero hero) {
+		return hero;
+	}
+
+	@Override
+	public Designer getDesignerInfo(int heroId) {
+		return null;
+	}
+
+}

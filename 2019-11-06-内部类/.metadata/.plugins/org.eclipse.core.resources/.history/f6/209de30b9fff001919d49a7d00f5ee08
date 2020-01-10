@@ -1,0 +1,9 @@
+package study;
+
+public abstract class ACatKind extends AAnimal {
+
+	public final void say() {
+		
+	};
+
+}

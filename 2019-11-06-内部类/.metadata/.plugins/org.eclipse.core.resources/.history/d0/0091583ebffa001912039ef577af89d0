@@ -1,0 +1,22 @@
+package com.yunhe.day08;
+
+public class Computer {
+String name;
+int integral ;
+public String computerAction(){
+	String result = "";
+	int num =(int)(Math.random()*10)%3;
+	switch(num){
+	case 1 :
+		result = "石头";
+		break;
+	case 2 :
+		result = "石头";
+		break;
+	case 3 :
+		result = "石头";
+		break;
+	}
+}
+	
+}

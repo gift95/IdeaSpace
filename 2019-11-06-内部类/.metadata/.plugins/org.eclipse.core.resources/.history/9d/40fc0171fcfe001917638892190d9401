@@ -1,0 +1,55 @@
+package cn.yunhe.inter;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+	}
+}
+/**
+ * 假设A和B之间有间接关系
+ */
+interface A extends B{
+	public abstract void show();
+}
+/**
+ *  假设B和C之间有间接关系
+ */
+interface B extends C{
+	void run();
+}
+interface C{
+	
+	public abstract void method();
+}
+
+class D implements A{
+
+	@Override
+	public void run() {
+	}
+
+	@Override
+	public void method() {
+	}
+
+	@Override
+	public void show() {
+	}
+	
+}
+
+/*class D implements A,B,C{
+
+	@Override
+	public void method() {
+	}
+
+	@Override
+	public void run() {
+	}
+
+	@Override
+	public void show() {
+	}
+}*/

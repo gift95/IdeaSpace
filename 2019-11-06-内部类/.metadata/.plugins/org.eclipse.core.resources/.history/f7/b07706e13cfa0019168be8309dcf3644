@@ -1,0 +1,12 @@
+package com.yunhe.day08;
+
+public class Demo01 {
+
+public static void main(String[] args) {
+	StudentsBiz myZhazhiji = new StudentsBiz();
+	String myFruit = "苹果";
+	String myJuice = myZhazhiji.zhazhi(myFruit);
+	System.out.println(myJuice);
+
+}
+}

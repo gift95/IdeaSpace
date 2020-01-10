@@ -1,0 +1,6 @@
+package study;
+
+public final abstract class AAnimal {
+ final String kind = "นท";
+	public abstract void eat();
+}

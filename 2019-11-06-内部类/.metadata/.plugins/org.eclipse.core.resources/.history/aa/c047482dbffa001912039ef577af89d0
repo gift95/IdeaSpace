@@ -1,0 +1,11 @@
+package com.yunhe.day08;
+
+public class Computer {
+String name;
+int integral ;
+public String computerAction(){
+	int num =(int)(Math.random()*10)%3;
+	switch(num);
+}
+	
+}

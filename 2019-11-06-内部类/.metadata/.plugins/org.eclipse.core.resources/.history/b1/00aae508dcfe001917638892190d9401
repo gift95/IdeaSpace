@@ -1,0 +1,14 @@
+package cn.yunhe.override;
+
+public class User {
+	
+	int num = 5;
+
+	public void speak(){
+		System.out.println("人-----都会说话--"+num);
+	}
+	
+	public static void eat(){
+		System.out.println("人.....都会吃");
+	}
+}

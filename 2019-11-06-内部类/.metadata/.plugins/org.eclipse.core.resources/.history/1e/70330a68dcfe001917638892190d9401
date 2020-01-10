@@ -1,0 +1,9 @@
+package study;
+
+public class American extends User{
+
+	@Override
+	public void eat1(){
+		System.out.println("”√µ∂≤Ê≥‘...");
+	}
+}

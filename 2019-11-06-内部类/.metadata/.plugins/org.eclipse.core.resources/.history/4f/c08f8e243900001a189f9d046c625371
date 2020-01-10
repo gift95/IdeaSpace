@@ -1,0 +1,13 @@
+package cn.yunhe.inner;
+
+public class Outer {
+	String name;
+	public void show() {
+		class inner {
+			private void run(this.name) {
+				System.out.println(name+"¿ìÅÜ.........");
+			}
+		}
+		new inner().run("±È¶û");
+	}
+}

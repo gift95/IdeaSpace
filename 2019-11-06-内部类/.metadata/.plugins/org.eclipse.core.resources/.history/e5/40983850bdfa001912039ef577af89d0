@@ -1,0 +1,7 @@
+package com.yunhe.day08;
+
+public class Computer {
+String name;
+int integral ;
+	
+}
