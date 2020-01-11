@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/2020-1-10Maven" />
+    <file type="web" url="file://$PROJECT_DIR$/2020-1-11-NewHtmlByMaven" />
+    <file type="web" url="file://$PROJECT_DIR$/2020-1-13-MavenMybatis" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/2020-1-10Maven/pom.xml" />
+        <option value="$PROJECT_DIR$/2020-1-13-MavenMybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/2020-1-11-NewHtmlByMaven/pom.xml" />
       </list>
     </option>
   </component>

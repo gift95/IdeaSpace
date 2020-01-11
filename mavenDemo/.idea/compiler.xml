@@ -6,16 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="2020-1-13-MavenMybatis" />
-        <module name="NewHtmlByMaven" />
+        <module name="MavenDemo03" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="2019-12-31Mybatis" target="1.5" />
-      <module name="2020-1-10Maven" target="1.8" />
-      <module name="2020-1-13-MavenMybatis" target="1.8" />
-      <module name="Mybatis_01" target="1.5" />
-      <module name="NewHtmlByMaven" target="1.8" />
+      <module name="mavenDemo" target="1.8" />
+      <module name="MavenDemo01" target="1.8" />
+      <module name="MavenDemo02" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
