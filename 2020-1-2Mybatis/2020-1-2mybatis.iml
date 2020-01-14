@@ -148,6 +148,7 @@
         <webroots>
           <root url="file://$MODULE_DIR$/web" relative="/" />
         </webroots>
+<<<<<<< HEAD
         <sourceRoots>
           <root url="file://$MODULE_DIR$/src" />
           <root url="file://$MODULE_DIR$/config" />
@@ -204,6 +205,8 @@
         <webroots>
           <root url="file://$MODULE_DIR$/web" relative="/" />
         </webroots>
+=======
+>>>>>>> 560932f9f354c2d333d0a1f72ee166abca256a31
       </configuration>
     </facet>
   </component>

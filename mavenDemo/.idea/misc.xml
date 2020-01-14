@@ -8,7 +8,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/MavenDemo01/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/MavenDemo03/pom.xml" />
+=======
+>>>>>>> 560932f9f354c2d333d0a1f72ee166abca256a31
       </list>
     </option>
     <option name="ignoredFiles">
